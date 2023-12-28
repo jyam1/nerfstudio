@@ -26,7 +26,6 @@ ENV CUDA_HOME="/usr/local/cuda"
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     build-essential \
-    clean \
     cmake \
     curl \
     ffmpeg \
