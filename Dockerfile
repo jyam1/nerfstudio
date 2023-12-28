@@ -124,7 +124,6 @@ RUN python3.10 -m pip install --upgrade pip setuptools pathtools promise pybind1
 RUN python3.10 -m pip install \
     torch \
     torchvision \
-    torchaudio \
         --index-url https://download.pytorch.org/whl/cu118
 # Install tynyCUDNN (we need to set the target architectures as environment variable first).
 ENV TCNN_CUDA_ARCHITECTURES=${CUDA_ARCHITECTURES}
